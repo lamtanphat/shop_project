@@ -1,0 +1,66 @@
+.MuiContainer-root.productView {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  margin: 150px 0 100px 0;
+  width: 75%;
+}
+
+.productView .imageWrapper img {
+  width: 80%;
+}
+
+.size {
+  padding: 10px 0 10px 0;
+}
+
+.productView .text h2 {
+  font-size: 30px;
+}
+
+.productView .text span h1 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.productView .text h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.productView .text .quantity {
+  margin-bottom: 5px;
+}
+
+.MuiContainer-root.productView .customButton {
+  color: #000;
+  background-color: #bb86fc;
+}
+
+.MuiContainer-root.productView .customButton:hover {
+  color: #c9d1d9;
+}
+
+.MuiContainer-root.productView .customButton svg {
+  margin-right: 10px;
+}
+
+.MuiContainer-root.productView .increaseProductQuantity {
+  background-color: #03dac5;
+  border-color: #03dac5;
+}
+
+.productView .MuiGrid-root .MuiGrid-item {
+  padding: 5px 15px;
+}
+
+@media (min-width: 960px) {
+  .MuiContainer-root.productView {
+    height: 88vh;
+    margin: 40px 0 0;
+    max-width: 1980px;
+  }
+
+
+}
